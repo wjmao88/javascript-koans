@@ -203,7 +203,7 @@ describe("About Applying What We Have Learnt", function() {
         return current%prime !== 0;
       };
 
-      while (primes.length < 10001){
+      while (primes.length < n){
         current++;
         if (_(primes).all(primeChecker)){
           primes.push(current);
